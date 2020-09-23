@@ -1,0 +1,82 @@
+html {
+    
+    background-color: #292B3A;
+}
+hr{
+    margin-top: 1rem;
+    height: 5px;
+    background-color: #ffffff;
+}
+ul{
+    list-style:none;
+    // display:inline;
+    padding-inline-start:0px
+}
+li {
+    float: left;
+  }
+.container{
+
+    // display: inline-flexbox;
+    margin-left:  9rem;
+    margin-right: 9rem;
+
+}
+.header{
+
+    margin-top:2rem;
+}
+.user{
+
+    margin-top: 15px;
+    display: inline-block;
+    height: 40px;
+    float: right;
+    
+}
+
+#main-title{
+    display: inline;
+    font-size: 2.5rem;
+
+    color: aliceblue;
+}
+
+.content{
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+.status{
+    
+    background-color: #393E52;
+    height: 3rem;
+    width: 10rem;
+    color: azure;
+    box-shadow: inset  10px 0px #17EB25;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    // background-image: url(\public\images\briefing.png) no-repeat center center;
+    
+}
+
+.modal-card-head{
+
+    margin-top:5rem;
+    background-color: #393E52;
+}
+.modal-card-title{
+
+    text-align: center;
+    color:white;
+
+}
+.modal-card-body{
+    color:white;
+    // background-color: #393E52;
+
+}

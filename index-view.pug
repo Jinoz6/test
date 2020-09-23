@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+html
+
+    head
+    
+        title dashboard
+        link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css")
+        link(rel="stylesheet", href="/stylesheets/style.css")
+        
+
+
+    body
+    
+        .container
+            include modal
+            .header
+
+                h1#main-title Project
+                img.user(src="/images/user.png", alt="user")
+
+            hr
+            
+            .div.content
+
+                ul(style="margin-left: 0;")
+                    li
+                        button.status(onClick="modal(this)") projectname
+                    for i in data
+                        button.status(onClick="modal()")= i.project_name
+            
+
+    script.
+
+        
+
+
+        function modal(event) {
+            var target = event.text;
+            console.log(target)
+
+            let modal1 = document.getElementById("myModal")
+            var cancel = document.getElementById("cancel_btn")
+
+            
+            modal1.style.display = "block"
+
+            cancel.onclick = function () {
+            modal1.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            
+        }
